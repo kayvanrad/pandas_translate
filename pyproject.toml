@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pandas_translate"
+version = "0.0.1"
+authors = [
+  { name="Aras Kayvanrad", email="mkayvan@gmail.com" },
+]
+description = "A small package to facilitate translation of pandas dataframes"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
